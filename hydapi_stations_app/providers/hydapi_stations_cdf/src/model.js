@@ -19,12 +19,12 @@ Model.prototype.getData = function (req, callback) {
     method: 'GET'
   }, (err, res, body) => {
     if (err) return callback(err)
-    const geojson = translate(body)
+    const geojson = toGeoJSON(body)
     callback(null, geojson)
   })
 }
 
-function translate(results) {
+function toGeoJSON(results) {
   let data = results.data
   let features = data.map(feature => {
     let f = {
