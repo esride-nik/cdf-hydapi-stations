@@ -65,6 +65,11 @@ um *.cdpk hochzuladen
 
 Übernimm die ID, die beim Hochladen der Datei zurückgegeben wird
 
+#### Portal Token bei föderiertem Deployment generieren
+
+Die [Server Admin Schnittstelle](https://vsaz0204.esri-de.com/server/admin/) braucht ein Portal Token. Dazu dem Portal/generateToken Link folgen, "Login" klicken und bei aktivierten DevTools und "Preserve Log" die Requests anschauen und Token rausfummeln:
+![Federated Portal Token](./federatedPortalToken.png)
+
 #### Registriere den Datenfeed bei ArcGIS Server
 Gehen Sie in der Admin-Oberfläche zu:
 home/services/types/customdataproviders/register
