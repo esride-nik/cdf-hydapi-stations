@@ -1,6 +1,6 @@
 {
   "name": "hydapi_stations_cdf",
-  "arcgisVersion": "11.1.0",
+  "arcgisVersion": "11.3.0",
   "parentServiceType": "FeatureServer",
   "customdataRuntimeVersion": "1",
   "type": "provider",

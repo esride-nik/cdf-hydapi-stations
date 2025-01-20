@@ -63,7 +63,8 @@ Gehe zu
 home/uploads/upload 
 um *.cdpk hochzuladen
 
-Übernimm die ID, die beim Hochladen der Datei zurückgegeben wird
+Übernimm die ID, die beim Hochladen der Datei zurückgegeben wird (zB. 
+Item ID:	i6214b407-28de-483c-b25d-69b1ac971197)
 
 #### Portal Token bei föderiertem Deployment generieren
 
@@ -121,7 +122,7 @@ Verwende die folgende Vorlage, um einen neuen Feature-Service zu erstellen. Stel
   "datasets": []
 }
 ```
-Hier können Sie sehen, dass dataProviderHost und dataProviderid auf „“ gesetzt sind, da diese nicht verwendet werden. Hier ist erkennbar, dass dies die Einstellungen in cdconfig.json widerspiegelt (siehe vorherige Beschreibungen).
+dataProviderHost und dataProviderid sind auf „“ gesetzt, da diese nicht verwendet werden. Hier ist erkennbar, dass dies die Einstellungen in cdconfig.json widerspiegelt (siehe vorherige Beschreibungen).
 
 
 
