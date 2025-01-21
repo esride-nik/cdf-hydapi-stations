@@ -57,14 +57,14 @@ cdf export hydapi_stations_cdf
 ```
 
 #### Hochladen des Providers auf ArcGIS Server
-Ein benutzerdefiniertes Datenprovider-Paket muss auf die von Enterprise verwendete ArcGIS Server-Site hochgeladen und registriert werden. Dies geschieht über die Verwaltungsoberfläche, z.B. https://vmgdts02.azure.geodata.no:6443/arcgis/admin
+Ein benutzerdefiniertes Datenprovider-Paket muss auf die von Enterprise verwendete ArcGIS Server-Site hochgeladen und registriert werden. Dies geschieht über die Server Admin Schnittstelle.
 
 Gehe zu
 home/uploads/upload 
 um *.cdpk hochzuladen
 
 Übernimm die ID, die beim Hochladen der Datei zurückgegeben wird (zB. 
-Item ID:	i6214b407-28de-483c-b25d-69b1ac971197)
+Item ID: i6214b407-28de-483c-b25d-69b1ac971197)
 
 #### Portal Token bei föderiertem Deployment generieren
 
